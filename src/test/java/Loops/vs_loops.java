@@ -1,6 +1,6 @@
 package Loops;
 
-public class Jspiders {
+public class vs_loops {
 	public static void main(String[] args) {
 		Jspiders.Squarematrix();
 
