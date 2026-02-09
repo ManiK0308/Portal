@@ -10,8 +10,9 @@
 	}
 	public void run()
 		{
-			System.out.println("run 5 kms");
+			System.out.println("run 50 kms");
 			walk();
+			
 	//		Prgm1 s1 = new Prgm1();
 	//		s1.walk();
 		}
