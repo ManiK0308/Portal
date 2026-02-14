@@ -22,7 +22,7 @@ public class vs_loops {
 				}
 			}
 			System.out.println();
-			// i am making 
+			// i am making
 		}
 	}
 
