@@ -1,55 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-14T14:38:55 IST" name="Default suite" finished-at="2026-02-14T14:38:55 IST" duration-ms="90">
+  <suite started-at="2026-02-14T23:06:44 IST" name="Registration" finished-at="2026-02-14T23:06:45 IST" duration-ms="134">
     <groups>
       <group name="regression">
-        <method signature="Groouping.tc1()[pri:1, instance:TesTNG.Groouping@6989da5e]" name="tc1" class="TesTNG.Groouping"/>
-        <method signature="Groouping.tc2()[pri:2, instance:TesTNG.Groouping@6989da5e]" name="tc2" class="TesTNG.Groouping"/>
-        <method signature="Groouping.tc3()[pri:3, instance:TesTNG.Groouping@6989da5e]" name="tc3" class="TesTNG.Groouping"/>
-        <method signature="Groouping.tc4()[pri:4, instance:TesTNG.Groouping@6989da5e]" name="tc4" class="TesTNG.Groouping"/>
-        <method signature="Groouping.tc5()[pri:5, instance:TesTNG.Groouping@6989da5e]" name="tc5" class="TesTNG.Groouping"/>
+        <method signature="Groouping2.tc6()[pri:1, instance:TesTNG.Groouping2@4c12331b]" name="tc6" class="TesTNG.Groouping2"/>
+        <method signature="grouping3.tc1()[pri:1, instance:TesTNG.grouping3@7c6908d7]" name="tc1" class="TesTNG.grouping3"/>
+        <method signature="grouping3.tc2()[pri:2, instance:TesTNG.grouping3@7c6908d7]" name="tc2" class="TesTNG.grouping3"/>
+        <method signature="grouping3.tc3()[pri:3, instance:TesTNG.grouping3@7c6908d7]" name="tc3" class="TesTNG.grouping3"/>
+        <method signature="Groouping2.tc5()[pri:5, instance:TesTNG.Groouping2@4c12331b]" name="tc5" class="TesTNG.Groouping2"/>
+        <method signature="Groouping2.tc8()[pri:8, instance:TesTNG.Groouping2@4c12331b]" name="tc8" class="TesTNG.Groouping2"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="Groouping.tc1()[pri:1, instance:TesTNG.Groouping@6989da5e]" name="tc1" class="TesTNG.Groouping"/>
-        <method signature="Groouping.tc3()[pri:3, instance:TesTNG.Groouping@6989da5e]" name="tc3" class="TesTNG.Groouping"/>
+        <method signature="grouping3.tc1()[pri:1, instance:TesTNG.grouping3@7c6908d7]" name="tc1" class="TesTNG.grouping3"/>
+        <method signature="Groouping2.tc8()[pri:8, instance:TesTNG.Groouping2@4c12331b]" name="tc8" class="TesTNG.Groouping2"/>
       </group> <!-- smoke -->
       <group name="User Registration">
-        <method signature="Groouping.tc1()[pri:1, instance:TesTNG.Groouping@6989da5e]" name="tc1" class="TesTNG.Groouping"/>
-        <method signature="Groouping.tc2()[pri:2, instance:TesTNG.Groouping@6989da5e]" name="tc2" class="TesTNG.Groouping"/>
-        <method signature="Groouping.tc3()[pri:3, instance:TesTNG.Groouping@6989da5e]" name="tc3" class="TesTNG.Groouping"/>
-        <method signature="Groouping.tc4()[pri:4, instance:TesTNG.Groouping@6989da5e]" name="tc4" class="TesTNG.Groouping"/>
-        <method signature="Groouping.tc5()[pri:5, instance:TesTNG.Groouping@6989da5e]" name="tc5" class="TesTNG.Groouping"/>
+        <method signature="Groouping2.tc6()[pri:1, instance:TesTNG.Groouping2@4c12331b]" name="tc6" class="TesTNG.Groouping2"/>
+        <method signature="Groouping2.tc5()[pri:5, instance:TesTNG.Groouping2@4c12331b]" name="tc5" class="TesTNG.Groouping2"/>
+        <method signature="Groouping2.tc8()[pri:8, instance:TesTNG.Groouping2@4c12331b]" name="tc8" class="TesTNG.Groouping2"/>
       </group> <!-- User Registration -->
     </groups>
-    <test started-at="2026-02-14T14:38:55 IST" name="Default test" finished-at="2026-02-14T14:38:55 IST" duration-ms="90">
-      <class name="TesTNG.Groouping">
-        <test-method is-config="true" signature="pretest()[pri:0, instance:TesTNG.Groouping@6989da5e]" started-at="2026-02-14T14:38:55 IST" name="pretest" finished-at="2026-02-14T14:38:55 IST" duration-ms="11" status="PASS">
+    <test started-at="2026-02-14T23:06:44 IST" name="Test" finished-at="2026-02-14T23:06:45 IST" duration-ms="134">
+      <class name="TesTNG.Groouping2">
+        <test-method signature="tc6()[pri:1, instance:TesTNG.Groouping2@4c12331b]" started-at="2026-02-14T23:06:44 IST" name="tc6" description="Sixth testcase" finished-at="2026-02-14T23:06:44 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pretest -->
-        <test-method signature="tc1()[pri:1, instance:TesTNG.Groouping@6989da5e]" started-at="2026-02-14T14:38:55 IST" name="tc1" description="First testcase" finished-at="2026-02-14T14:38:55 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc1 -->
-        <test-method signature="tc2()[pri:2, instance:TesTNG.Groouping@6989da5e]" started-at="2026-02-14T14:38:55 IST" name="tc2" description="Second testcase" finished-at="2026-02-14T14:38:55 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method signature="tc3()[pri:3, instance:TesTNG.Groouping@6989da5e]" started-at="2026-02-14T14:38:55 IST" name="tc3" description="Third testcase" finished-at="2026-02-14T14:38:55 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc3 -->
-        <test-method signature="tc4()[pri:4, instance:TesTNG.Groouping@6989da5e]" started-at="2026-02-14T14:38:55 IST" name="tc4" description="Fourth testcase" finished-at="2026-02-14T14:38:55 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc4 -->
-        <test-method signature="tc5()[pri:5, instance:TesTNG.Groouping@6989da5e]" started-at="2026-02-14T14:38:55 IST" name="tc5" description="Fifth testcase" finished-at="2026-02-14T14:38:55 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- tc6 -->
+        <test-method signature="tc5()[pri:5, instance:TesTNG.Groouping2@4c12331b]" started-at="2026-02-14T23:06:44 IST" name="tc5" description="Fifth testcase" finished-at="2026-02-14T23:06:44 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc5 -->
-      </class> <!-- TesTNG.Groouping -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method signature="tc8()[pri:8, instance:TesTNG.Groouping2@4c12331b]" started-at="2026-02-14T23:06:44 IST" name="tc8" description="Eights testcase" finished-at="2026-02-14T23:06:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc8 -->
+      </class> <!-- TesTNG.Groouping2 -->
+      <class name="TesTNG.grouping3">
+        <test-method signature="tc1()[pri:1, instance:TesTNG.grouping3@7c6908d7]" started-at="2026-02-14T23:06:45 IST" name="tc1" description="First testcase" finished-at="2026-02-14T23:06:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc2()[pri:2, instance:TesTNG.grouping3@7c6908d7]" started-at="2026-02-14T23:06:45 IST" name="tc2" description="Second testcase" finished-at="2026-02-14T23:06:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method signature="tc3()[pri:3, instance:TesTNG.grouping3@7c6908d7]" started-at="2026-02-14T23:06:45 IST" name="tc3" description="Third testcase" finished-at="2026-02-14T23:06:45 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="post_test()[pri:0, instance:TesTNG.grouping3@7c6908d7]" started-at="2026-02-14T23:06:45 IST" name="post_test" description="Post testcase" finished-at="2026-02-14T23:06:45 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test -->
+      </class> <!-- TesTNG.grouping3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Registration -->
 </testng-results>
