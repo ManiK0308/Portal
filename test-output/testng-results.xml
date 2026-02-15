@@ -1,60 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="1" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-14T23:06:44 IST" name="Registration" finished-at="2026-02-14T23:06:45 IST" duration-ms="134">
+  <suite started-at="2026-02-15T14:28:05 IST" name="Default suite" finished-at="2026-02-15T14:28:05 IST" duration-ms="45">
     <groups>
-      <group name="regression">
-        <method signature="Groouping2.tc6()[pri:1, instance:TesTNG.Groouping2@4c12331b]" name="tc6" class="TesTNG.Groouping2"/>
-        <method signature="grouping3.tc1()[pri:1, instance:TesTNG.grouping3@7c6908d7]" name="tc1" class="TesTNG.grouping3"/>
-        <method signature="grouping3.tc2()[pri:2, instance:TesTNG.grouping3@7c6908d7]" name="tc2" class="TesTNG.grouping3"/>
-        <method signature="grouping3.tc3()[pri:3, instance:TesTNG.grouping3@7c6908d7]" name="tc3" class="TesTNG.grouping3"/>
-        <method signature="Groouping2.tc5()[pri:5, instance:TesTNG.Groouping2@4c12331b]" name="tc5" class="TesTNG.Groouping2"/>
-        <method signature="Groouping2.tc8()[pri:8, instance:TesTNG.Groouping2@4c12331b]" name="tc8" class="TesTNG.Groouping2"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="grouping3.tc1()[pri:1, instance:TesTNG.grouping3@7c6908d7]" name="tc1" class="TesTNG.grouping3"/>
-        <method signature="Groouping2.tc8()[pri:8, instance:TesTNG.Groouping2@4c12331b]" name="tc8" class="TesTNG.Groouping2"/>
-      </group> <!-- smoke -->
-      <group name="User Registration">
-        <method signature="Groouping2.tc6()[pri:1, instance:TesTNG.Groouping2@4c12331b]" name="tc6" class="TesTNG.Groouping2"/>
-        <method signature="Groouping2.tc5()[pri:5, instance:TesTNG.Groouping2@4c12331b]" name="tc5" class="TesTNG.Groouping2"/>
-        <method signature="Groouping2.tc8()[pri:8, instance:TesTNG.Groouping2@4c12331b]" name="tc8" class="TesTNG.Groouping2"/>
-      </group> <!-- User Registration -->
     </groups>
-    <test started-at="2026-02-14T23:06:44 IST" name="Test" finished-at="2026-02-14T23:06:45 IST" duration-ms="134">
-      <class name="TesTNG.Groouping2">
-        <test-method signature="tc6()[pri:1, instance:TesTNG.Groouping2@4c12331b]" started-at="2026-02-14T23:06:44 IST" name="tc6" description="Sixth testcase" finished-at="2026-02-14T23:06:44 IST" duration-ms="10" status="PASS">
+    <test started-at="2026-02-15T14:28:05 IST" name="Default test" finished-at="2026-02-15T14:28:05 IST" duration-ms="45">
+      <class name="TesTNG.SkipDemotest">
+        <test-method signature="skip_test2()[pri:0, instance:TesTNG.SkipDemotest@65fb9ffc]" started-at="2026-02-15T14:28:05 IST" name="skip_test2" finished-at="2026-02-15T14:28:05 IST" duration-ms="9" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Throwing skip execpetion]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Throwing skip execpetion
+at TesTNG.SkipDemotest.skip_test2(SkipDemotest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc6 -->
-        <test-method signature="tc5()[pri:5, instance:TesTNG.Groouping2@4c12331b]" started-at="2026-02-14T23:06:44 IST" name="tc5" description="Fifth testcase" finished-at="2026-02-14T23:06:44 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- skip_test2 -->
+        <test-method signature="skip_test3()[pri:0, instance:TesTNG.SkipDemotest@65fb9ffc]" started-at="2026-02-15T14:28:05 IST" name="skip_test3" finished-at="2026-02-15T14:28:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc5 -->
-        <test-method signature="tc8()[pri:8, instance:TesTNG.Groouping2@4c12331b]" started-at="2026-02-14T23:06:44 IST" name="tc8" description="Eights testcase" finished-at="2026-02-14T23:06:44 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc8 -->
-      </class> <!-- TesTNG.Groouping2 -->
-      <class name="TesTNG.grouping3">
-        <test-method signature="tc1()[pri:1, instance:TesTNG.grouping3@7c6908d7]" started-at="2026-02-14T23:06:45 IST" name="tc1" description="First testcase" finished-at="2026-02-14T23:06:45 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc1 -->
-        <test-method signature="tc2()[pri:2, instance:TesTNG.grouping3@7c6908d7]" started-at="2026-02-14T23:06:45 IST" name="tc2" description="Second testcase" finished-at="2026-02-14T23:06:45 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method signature="tc3()[pri:3, instance:TesTNG.grouping3@7c6908d7]" started-at="2026-02-14T23:06:45 IST" name="tc3" description="Third testcase" finished-at="2026-02-14T23:06:45 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc3 -->
-        <test-method is-config="true" signature="post_test()[pri:0, instance:TesTNG.grouping3@7c6908d7]" started-at="2026-02-14T23:06:45 IST" name="post_test" description="Post testcase" finished-at="2026-02-14T23:06:45 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- post_test -->
-      </class> <!-- TesTNG.grouping3 -->
-    </test> <!-- Test -->
-  </suite> <!-- Registration -->
+        </test-method> <!-- skip_test3 -->
+      </class> <!-- TesTNG.SkipDemotest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

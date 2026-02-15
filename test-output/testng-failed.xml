@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium.LB_softassertions">
+      <class name="TesTNG.SkipDemotest">
         <methods>
-          <include name="assertion_example"/>
+          <include name="skip_test2"/>
         </methods>
-      </class> <!-- Selenium.LB_softassertions -->
+      </class> <!-- TesTNG.SkipDemotest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
