@@ -1,57 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="1" failed="0" skipped="1">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-15T14:28:05 IST" name="Default suite" finished-at="2026-02-15T14:28:05 IST" duration-ms="45">
+  <suite started-at="2026-02-15T16:33:12 IST" name="Default suite" finished-at="2026-02-15T16:33:12 IST" duration-ms="72">
     <groups>
+      <group name="regression">
+        <method signature="STM_testng9.tc1()[pri:1, instance:TesTNG.STM_testng9@77c2494c]" name="tc1" class="TesTNG.STM_testng9"/>
+        <method signature="STM_testng9.tc3()[pri:3, instance:TesTNG.STM_testng9@77c2494c]" name="tc3" class="TesTNG.STM_testng9"/>
+        <method signature="STM_testng9.tc5()[pri:5, instance:TesTNG.STM_testng9@77c2494c]" name="tc5" class="TesTNG.STM_testng9"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="STM_testng9.tc1()[pri:1, instance:TesTNG.STM_testng9@77c2494c]" name="tc1" class="TesTNG.STM_testng9"/>
+        <method signature="STM_testng9.tc2()[pri:2, instance:TesTNG.STM_testng9@77c2494c]" name="tc2" class="TesTNG.STM_testng9"/>
+        <method signature="STM_testng9.tc4()[pri:4, instance:TesTNG.STM_testng9@77c2494c]" name="tc4" class="TesTNG.STM_testng9"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-02-15T14:28:05 IST" name="Default test" finished-at="2026-02-15T14:28:05 IST" duration-ms="45">
-      <class name="TesTNG.SkipDemotest">
-        <test-method signature="skip_test2()[pri:0, instance:TesTNG.SkipDemotest@65fb9ffc]" started-at="2026-02-15T14:28:05 IST" name="skip_test2" finished-at="2026-02-15T14:28:05 IST" duration-ms="9" status="SKIP">
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Throwing skip execpetion]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Throwing skip execpetion
-at TesTNG.SkipDemotest.skip_test2(SkipDemotest.java:28)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+    <test started-at="2026-02-15T16:33:12 IST" name="Default test" finished-at="2026-02-15T16:33:12 IST" duration-ms="72">
+      <class name="TesTNG.STM_testng9">
+        <test-method is-config="true" signature="before_class()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="before_class" finished-at="2026-02-15T16:33:12 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- skip_test2 -->
-        <test-method signature="skip_test3()[pri:0, instance:TesTNG.SkipDemotest@65fb9ffc]" started-at="2026-02-15T14:28:05 IST" name="skip_test3" finished-at="2026-02-15T14:28:05 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- before_class -->
+        <test-method is-config="true" signature="beforeeverymethod()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="beforeeverymethod" finished-at="2026-02-15T16:33:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- skip_test3 -->
-      </class> <!-- TesTNG.SkipDemotest -->
+        </test-method> <!-- beforeeverymethod -->
+        <test-method is-config="true" signature="before_groups()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="before_groups" finished-at="2026-02-15T16:33:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_groups -->
+        <test-method signature="tc1()[pri:1, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="tc1" description="First testcase" finished-at="2026-02-15T16:33:12 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="aftereverymethod()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="aftereverymethod" finished-at="2026-02-15T16:33:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereverymethod -->
+        <test-method signature="tc2()[pri:2, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="tc2" description="Second testcase" finished-at="2026-02-15T16:33:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="beforeeverymethod()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="beforeeverymethod" finished-at="2026-02-15T16:33:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeverymethod -->
+        <test-method is-config="true" signature="aftereverymethod()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="aftereverymethod" finished-at="2026-02-15T16:33:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereverymethod -->
+        <test-method signature="tc3()[pri:3, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="tc3" description="Third testcase" finished-at="2026-02-15T16:33:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="beforeeverymethod()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="beforeeverymethod" finished-at="2026-02-15T16:33:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeverymethod -->
+        <test-method is-config="true" signature="aftereverymethod()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="aftereverymethod" finished-at="2026-02-15T16:33:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereverymethod -->
+        <test-method is-config="true" signature="beforeeverymethod()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="beforeeverymethod" finished-at="2026-02-15T16:33:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeverymethod -->
+        <test-method signature="tc4()[pri:4, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="tc4" description="Fourth testcase" finished-at="2026-02-15T16:33:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method is-config="true" signature="aftereverymethod()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="aftereverymethod" finished-at="2026-02-15T16:33:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereverymethod -->
+        <test-method is-config="true" signature="beforeeverymethod()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="beforeeverymethod" finished-at="2026-02-15T16:33:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeeverymethod -->
+        <test-method signature="tc5()[pri:5, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="tc5" description="Fifth testcase" finished-at="2026-02-15T16:33:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method is-config="true" signature="aftereverymethod()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="aftereverymethod" finished-at="2026-02-15T16:33:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereverymethod -->
+        <test-method is-config="true" signature="After_groups()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="After_groups" finished-at="2026-02-15T16:33:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_groups -->
+        <test-method is-config="true" signature="after_class()[pri:0, instance:TesTNG.STM_testng9@77c2494c]" started-at="2026-02-15T16:33:12 IST" name="after_class" finished-at="2026-02-15T16:33:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_class -->
+      </class> <!-- TesTNG.STM_testng9 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

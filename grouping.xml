@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selection">
+  <test name="runnning">
+  <groups>
+  	<run>
+  		<include name="regression">
+  		</include>
+  		<include name="smoke">
+  		</include>
+  	</run>
+  </groups> 
+    <classes>
+      <class name="TesTNG.STM_testng9"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
