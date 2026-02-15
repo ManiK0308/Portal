@@ -11,12 +11,12 @@ public class Groouping2 {
 	public void pretest() {
 		System.out.println("Before every test");
 	}
- 
+
 	@AfterTest(description = "Post testcase")
 	public void post_test() {
 		System.out.println("Inside posttest method");
 	}
-	
+
 	@Test(priority = 1, description = "Sixth testcase", groups = { "regression" })
 	public void tc6() {
 		System.out.println("Inside tc6 method");
