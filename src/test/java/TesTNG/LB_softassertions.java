@@ -1,4 +1,4 @@
-package Selenium;
+package TesTNG;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LB_softassertions {
@@ -21,12 +20,10 @@ public class LB_softassertions {
 		String Actualtitle = driver.getTitle();
 		System.out.println("Verifying title");
 		sassert.assertEquals(Actualtitle, expectedttitle, "title verification");
-
 		String exptext = "Accepted usernames are:";
 		String actualtext = driver.findElement(By.xpath("//div[@id='login_credentials']/h4")).getText();
 		System.out.println("Verifying text");
 		sassert.assertEquals(exptext, actualtext, "Text verification");
-
 		sassert.assertAll();
 		driver.close();
 

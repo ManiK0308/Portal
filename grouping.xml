@@ -10,9 +10,9 @@
   		</include>
   	</run>
   </groups> 
-    <classes>
+  <classes>
       <class name="TesTNG.STM_testng9"/>
-    </classes>
+  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
 

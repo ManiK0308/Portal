@@ -31,7 +31,7 @@ public class SkipDemotest {
 	@Test
 	public void skip_test3() {
 		System.out.println("Skipping test3");
-		if (DBconnection) {
+		if(DBconnection) {
 			System.out.println("We are executing the current testcase");
 		} else {
 			System.out.println("We are not executing this testcase");

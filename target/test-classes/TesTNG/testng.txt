@@ -1,0 +1,21 @@
+How to run a class with groups "smoke" and "regression"
+
+Type1:
+1. right click > 
+select run configurations > 
+Choose group type radio button >
+apply > 
+Run.
+
+Type2:
+1. Create a pom.xml
+2. Configurre  Groups> run > include 
+3. Inside include tag add the group type
+4. 
+
+Take away:
+  1.If a class file has both beforeclasses and beforegroups 
+	then running from .xml file will run only before/after groups, 
+	it willnot run the before/after classes tests
+
+

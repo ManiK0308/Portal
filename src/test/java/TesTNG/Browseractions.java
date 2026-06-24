@@ -4,9 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
+
+import common.CommonDataSetup;
+
 import org.testng.annotations.*;
 
-public class Browseractions {
+public class Browseractions extends CommonDataSetup {
 
 	WebDriver driver = new ChromeDriver();
 
