@@ -17,5 +17,4 @@ public class Variables {
 			System.out.println("Not a Palindrome");
 		}
 	}
-
 }

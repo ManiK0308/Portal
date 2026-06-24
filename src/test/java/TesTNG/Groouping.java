@@ -3,8 +3,10 @@ package TesTNG;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import common.CommonDataSetup;
+
 @Test(groups = "User Registration")
-public class Groouping {
+public class Groouping extends CommonDataSetup {
 
 	@BeforeTest(groups = "smoke")
 	public void pretest() {
