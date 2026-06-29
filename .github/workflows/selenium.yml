@@ -26,7 +26,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-
+            
       - name: Cache Maven Packages
         uses: actions/cache@v4
         with:
@@ -35,5 +35,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-m2-
 
-      - name: Run Maven Tests
-        run: mvn clean test
+      - name: Run Tests on Pull Request
+        if: github.event_name == 'pull_request'
+        run: mvn clean test -Dtestng.suites=master.xml
+
+      - name: Run Tests on Merge
+        if: github.event_name == 'push'
+        run: mvn clean test -Dtestng.suites=registration.xml
