@@ -1,0 +1,24 @@
+# Test reports / generated output
+/test-output/
+/test-report/
+/target/
+/surefire-reports/
+/allure-results/
+*.log
+
+# IDE / editor files
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local Selenium / driver artifacts
+chromedriver
+geckodriver
+msedgedriver
