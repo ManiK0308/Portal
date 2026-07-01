@@ -5,7 +5,7 @@
 /surefire-reports/
 /allure-results/
 *.log
-
+/MavenDependencies
 # IDE / editor files
 .vscode/
 .idea/
@@ -22,3 +22,5 @@ Thumbs.db
 chromedriver
 geckodriver
 msedgedriver
+/test-output/screenshots/
+/test-output 
