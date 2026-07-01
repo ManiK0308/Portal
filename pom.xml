@@ -11,7 +11,8 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>	
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <suiteXmlFile>master.xml</suiteXmlFile>
   </properties>
 
 
@@ -31,7 +32,7 @@
 
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>master.xml</suiteXmlFile>
+                    <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
 
@@ -68,4 +69,41 @@
     <scope>compile</scope>
 </dependency>
   </dependencies>
+
+  <profiles>
+    <profile>
+      <id>groouping</id>
+      <properties>
+        <suiteXmlFile>groouping-suite.xml</suiteXmlFile>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>smoke</id>
+      <properties>
+        <suiteXmlFile>smoke-tests.xml</suiteXmlFile>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>master</id>
+      <properties>
+        <suiteXmlFile>master.xml</suiteXmlFile>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>registration</id>
+      <properties>
+        <suiteXmlFile>registration.xml</suiteXmlFile>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>selection</id>
+      <properties>
+        <suiteXmlFile>selection.xml</suiteXmlFile>
+      </properties>
+    </profile>
+  </profiles>
 </project>
