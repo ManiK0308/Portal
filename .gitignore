@@ -24,3 +24,4 @@ geckodriver
 msedgedriver
 /test-output/screenshots/
 /test-output 
+/.vscode
