@@ -25,3 +25,11 @@ msedgedriver
 /test-output/screenshots/
 /test-output 
 /.vscode
+
+# Maven
+target/
+
+# Eclipse
+.project
+.classpath
+.settings/
