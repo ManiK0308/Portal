@@ -36,9 +36,7 @@ jobs:
             ${{ runner.os }}-m2-
 
       - name: Run Tests on Pull Request
-        if: github.event_name == 'pull_request'
         run: mvn clean test -Dtestng.suites=master.xml
 
       - name: Run Tests on Merge
-        if: github.event_name == 'push'
-        run: mvn clean test -Dtestng.suites=registration.xml
+        run: mvn clean test -Dtestng.suites=master.xml
