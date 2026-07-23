@@ -68,6 +68,11 @@
     <version>6.3.3</version>
     <scope>compile</scope>
 </dependency>
+  	<dependency>
+  		<groupId>clock</groupId>
+  		<artifactId>Parasoft</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 
   <profiles>

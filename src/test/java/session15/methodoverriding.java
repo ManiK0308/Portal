@@ -7,15 +7,24 @@ class Bank{
 		System.out.println("Rate of interest is 5%");
 		return 5;
 	}
+	
+	void displayAccountNumber()
+	{
+		System.out.println("Account number is: " + accountnumber);
+	}
 }
 
 class SBI extends Bank{
-	
-	@Override
 	public double getRateOfInterest()
 	{
 		System.out.println("Rate of interest is 6%");
 		return 6;
+	}
+	
+	void displayAccountNumber(String accountholdername)
+	{
+		System.out.println("Account number is: " + accountnumber + " and account holder name is: " + accountholdername);
+		System.out.println("Account number is: " + accountnumber);
 	}
 }
 class ICICI extends Bank{
@@ -36,7 +45,7 @@ public class methodoverriding {
 		b.getRateOfInterest(); // method overriding
 		
 		ICICI i = new ICICI();
-		i.acccountaccess();
+		i.acccountaccess(); 
 		i.getRateOfInterest();
 		
 	}
